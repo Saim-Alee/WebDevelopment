@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: blue;
+}
+
+.main{
+    width: 100%;
+
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: orangered;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: rgb(250, 10, 10);
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: orangered;
+    margin-top: 13px;
+    color: black;
+    border-right: white;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orangered;
+    border: 2px solid rgb(255, 0, 4);
+    margin-top: 13px;
+    color: black;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.body{
+    height: 80vh;
+    width: 100%;
+    border: solid black;
+    background-image: url(c:/Users/pc/Downloads/pexels-jeremy-bishop-6212576.jpg);
+    width: 100%;
+    height: 100vh;
+
+    background-position: center;
+    background-size: cover;
+}
+
+.heading{
+    margin-top: 10%;
+    margin-left: 35%;
+    width: 1200px;
+    height: auto;
+    color: blue;
+    position: relative;
+
+}
+
+.heading .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    color: white;
+}
+
+.heading .h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.heading .cn{
+    width: 130px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.heading .cn a{
+    text-decoration: none;
+    color: black;
+}
+
+.cn:hover{
+    background-color: white;
+}
